@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: beige;
+}
+
+span{
+    color: cadetblue;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+input{
+    border: none;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 88px;
+    border-radius: 20px;
+}
